@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   #length.times { |i|  i == value_to_find
     
   #array.reject{|i|  i!= value_to_find  
-      
+   array.each_with_index |i,index|  i=   
     
  array.index(i)
     
