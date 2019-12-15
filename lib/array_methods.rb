@@ -1,16 +1,12 @@
 def find_element_index(array, value_to_find)
-   #length=array.length
-  
-  #length.times { |i|  i == value_to_find
-    
-  #array.reject{|i|  i!= value_to_find  
+   
    array.each_with_index do  |i,index|   if i= value_to_find  
    
    return array.index(i)
  else
     return nil
    
-  #  index
+ 
    end 
  end
      
