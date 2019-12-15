@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
   #array.reject{|i|  i!= value_to_find  
    array.each_with_index do  |i,index|   if i= value_to_find  
    
-   return index
+   return i.index
  
    
   # array.index(i) index
